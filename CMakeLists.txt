@@ -12,7 +12,9 @@ qt_add_executable(SilkyEmu
     mainwindow.h
     mainwindow.ui
     controllerconfig.ui
-    corefetcher.h corefetcher.cpp corefetcher.ui
+    corefetcher.h
+    corefetcher.cpp
+    corefetcher.ui
 )
 
 target_link_libraries(SilkyEmu
